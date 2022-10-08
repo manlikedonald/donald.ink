@@ -184,7 +184,7 @@ export default function Home() {
                 
                 <div className="socials">
                     <div className='memoji'>
-                        <a href="#">
+                        <a href="#main">
                             <img 
                                 src={don} 
                                 alt="donald memoji" 
