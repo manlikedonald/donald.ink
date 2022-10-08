@@ -11,13 +11,13 @@ import linkedin from '../assets/linkedin.svg';
 import twitter from '../assets/twitter.svg';
 import ig from '../assets/instagram.svg';
 import gmail from '../assets/gmail.svg';
+import MetaTags from 'react-meta-tags';
 // import Scrollbar from 'smooth-scrollbar';
 
 
 // var options = {
 //     damping: 0.01,
 //   }
-
 export default function Home() {
     // const dummyRef = useRef();
     // const [scrollbar, setScrollbar] = useState(dummyRef.current);
@@ -40,6 +40,12 @@ export default function Home() {
 
     return (
       <div id='main'>
+        <MetaTags>
+            <title>Donald - Designer</title>
+            <meta name="description" content="Hello, I'm a product and motion designer. View some projects I've worked on" />
+            <meta property="og:title" content="MyApp" />
+            <meta property="og:image" content={don} />
+          </MetaTags>
         <header>
             <div>
                 <img 
@@ -194,6 +200,7 @@ export default function Home() {
                         <br />
                         <br />
                         <h1>Donald Ugobude</h1>
+                        <br />
                         <p>Designer</p>
                     </div>
                     <div className='social-media'>

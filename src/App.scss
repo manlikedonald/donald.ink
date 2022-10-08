@@ -237,7 +237,7 @@ body{
             font-size: 20px;
           }
           p{
-            font-size: 16px;
+            display: none;
           }
           img{
             width: 5rem;
@@ -369,6 +369,83 @@ body{
     }
     .contact{
       margin: auto 2rem;
+      .getInTouch{
+        h1{
+          font-size: 48px;
+        }
+        p{
+          margin: auto auto;
+        }
+        button{
+          margin: 2rem auto;
+          padding: 1rem 2rem;
+        }
+      }
+      .socials{
+        margin: auto auto;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        display: flex;
+        .memoji{
+          h1{
+            font-size: 24px;
+          }
+          p{
+            font-size: 20px;
+          }
+          img{
+            width: 7rem;
+          }
+        }
+        .social-media{
+          margin-top: 8rem;
+        }
+      }
+    }
+  }   
+}
+@media (min-width: 1151px) and (max-width: 1440px){
+  header{
+    margin: 4rem 10rem;
+    .logo{
+      width: 10rem;
+    }
+    .nav-links{
+      margin-top: .5rem;
+    }
+  }
+  
+  body{
+    .hero-page{
+      margin: 7rem 10rem;
+      @keyframes dan {
+          from {opacity: 0; margin: 10rem 10rem;}
+          to {opacity: 1; margin: 7rem 10rem;}
+      }
+      h1{
+        font-size: 64px;
+        margin: 1rem auto;
+      }
+    }
+    .works{
+      margin: auto auto;
+      h1, p{
+        margin: auto 10rem;
+      }
+      .product, .animation{
+        margin: .5rem 10rem;
+        display: flex;
+        img{
+          width: 95%;
+          margin: .5rem auto;
+        }
+      }
+    }
+    .about-me{
+      margin: 7rem 10rem;
+    }
+    .contact{
+      margin: auto 10rem;
       .getInTouch{
         h1{
           font-size: 48px;
