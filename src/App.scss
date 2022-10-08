@@ -408,7 +408,7 @@ body{
   header{
     margin: 4rem 10rem;
     .logo{
-      width: 10rem;
+      width: 8rem;
     }
     .nav-links{
       margin-top: .5rem;
@@ -417,23 +417,23 @@ body{
   
   body{
     .hero-page{
-      margin: 7rem 10rem;
+      margin: 15rem 10rem;
       @keyframes dan {
-          from {opacity: 0; margin: 10rem 10rem;}
-          to {opacity: 1; margin: 7rem 10rem;}
+          from {opacity: 0; margin: 18rem 10rem;}
+          to {opacity: 1; margin: 15rem 10rem;}
       }
       h1{
-        font-size: 64px;
+        font-size: 60px;
         margin: 1rem auto;
       }
     }
     .works{
-      margin: auto auto;
+      margin: 13rem auto;
       h1, p{
         margin: auto 10rem;
       }
       .product, .animation{
-        margin: .5rem 10rem;
+        margin: 1.5rem 10rem;
         display: flex;
         img{
           width: 95%;
@@ -442,10 +442,10 @@ body{
       }
     }
     .about-me{
-      margin: 7rem 10rem;
+      margin: auto 10rem;
     }
     .contact{
-      margin: auto 10rem;
+      margin: 13rem 10rem;
       .getInTouch{
         h1{
           font-size: 48px;
