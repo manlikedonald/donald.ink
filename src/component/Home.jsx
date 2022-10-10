@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="nav-links">
                 <p> 
-                    <a href="#works">WORKS</a>  
+                    <a href="#works">WORK</a>  
                 </p>
                 <p> 
                     <a href="#about">ABOUT ME </a> 
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
             
             <div className="works" id='works'>
-                <h1>Works</h1>
+                <h1>Work</h1>
                 <br />
                 <p>
                     I double as a product and motion designer, so projects may vary from product work to 2D animations. 
@@ -104,7 +104,7 @@ export default function Home() {
                         >
                             <img 
                                 src={urudi} 
-                                alt="my logo"
+                                alt="urudi logo"
                             />    
                         </a>
                     </div>
@@ -116,7 +116,7 @@ export default function Home() {
                         >
                             <img 
                                 src={apple} 
-                                alt="my logo"
+                                alt="apple logo"
                             />    
                         </a>
                     </div>
